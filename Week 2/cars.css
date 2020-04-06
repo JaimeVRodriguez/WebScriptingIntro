@@ -1,0 +1,23 @@
+.compact {
+	background-color: pink;
+}
+
+.mid-size {
+	background-color: blue;
+}
+
+.sports-car {
+	background-color: red;
+}
+
+.tier-1 {
+	list-style-type: upper-roman;
+}
+
+.tier-2 {
+	list-style-type: upper-alpha;
+}
+
+.tier-3 {
+	list-style-type: decimal;
+}
