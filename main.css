@@ -1,7 +1,9 @@
 .week {
+	font-weight: bold;
 	list-style-type: upper-roman;
 }
 
 .assignment {
+	font-weight: normal;
 	list-style-type: decimal;
 }

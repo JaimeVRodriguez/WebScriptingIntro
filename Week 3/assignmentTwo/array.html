@@ -1,0 +1,57 @@
+<!--
+Student: Jaime Rodriguez
+Bellevue University
+CIS337
+
+
+array.html
+
+Assignment 3.2
+Purpose: Utilize a function in JavaScript in order to
+count the number of negative, zero, and positve
+numbers in a given array. Display results in an array
+form
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Array Counter</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="array.css" />
+	<script src="array.js"></script>
+</head>
+
+<body>
+	<h1>Array Counter</h1>
+	<h4>Count Negatives, Zeroes, and Positives</h4>
+
+	<p>
+		<script>
+			document.write("Number Set 1: ")
+			document.write(arrayOne.join("  ,  ") + "<br>")
+		</script>
+	</p>
+
+	<p>
+		<script>
+			document.write("Number Set 2: ")
+			document.write(arrayTwo.join("  ,  ") + "<br>")
+		</script>
+	</p>
+
+	<br>
+
+	Count: <input type="text" id="countOne" value=" ">
+
+	<br>
+
+	<button onclick="counter(arrayOne)"> Count Set 1</button>
+	<button onclick="counter(arrayTwo)"> Count Set 2</button><br>
+
+
+
+
+</body>
+
+</html>
