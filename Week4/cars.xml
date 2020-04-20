@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type = "text/css" href = "cars.css" ?>
+<catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cars.xsd">
+
+	<heading>CARS CATALOG</heading>
+	<cars>
+		<make>Make: Subaru</make>
+		<model>Model: WRX STI</model>
+		<year>Year: 2016</year>
+		<color>Color: White</color>
+		<engine>
+			<number_of_cylinders>Cylinders: 4</number_of_cylinders>
+			<fuel_system>Fuel System: Fuel Injected</fuel_system>
+		</engine>
+		<number_of_doors>Doors: 4</number_of_doors>
+		<transmission_type>Transmission: Manual</transmission_type>
+		<accessories>
+			<radio>Radio: Yes</radio>
+			<air_conditioning>Air Conditioning: Yes</air_conditioning>
+			<power_windows>Power Windows: Yes</power_windows>
+			<power_steering>Power Steering: Yes</power_steering>
+			<power_brakes>Power Brakes: Yes</power_brakes>
+		</accessories>
+	</cars>
+
+	<cars>
+		<make>Make: Datsun (Nissan)</make>
+		<model>Model: 240Z</model>
+		<year>Year: 1970</year>
+		<color>Color: White</color>
+		<engine>
+			<number_of_cylinders>Cylinders: 6</number_of_cylinders>
+			<fuel_system>Fuel System: Carborated</fuel_system>
+		</engine>
+		<number_of_doors>Doors: 2</number_of_doors>
+		<transmission_type>Transmission: Manual</transmission_type>
+		<accessories>
+			<radio>Radio: Yes</radio>
+			<air_conditioning>Air Conditioning: No</air_conditioning>
+			<power_windows>Power Windows: No</power_windows>
+			<power_steering>Power Steering: No</power_steering>
+			<power_brakes>Power Brakes: Yes</power_brakes>
+		</accessories>
+	</cars>
+
+	<cars>
+		<make>Make: Tesla</make>
+		<model>Model: Model S</model>
+		<year>Year: 2020</year>
+		<color>Color: Black</color>
+		<engine>
+			<number_of_cylinders>Cylinders: N/A (Electric)</number_of_cylinders>
+			<fuel_system>Fuel System: N/A (Electric)</fuel_system>
+		</engine>
+		<number_of_doors>Doors: 4</number_of_doors>
+		<transmission_type>Transmission: Automatic</transmission_type>
+		<accessories>
+			<radio>Radio: Yes</radio>
+			<air_conditioning>Air Conditioning: Yes</air_conditioning>
+			<power_windows>Power Windows: Yes</power_windows>
+			<power_steering>Power Steering: Yes</power_steering>
+			<power_brakes>Power Brakes: Yes</power_brakes>
+		</accessories>
+	</cars>
+
+
+</catalog>

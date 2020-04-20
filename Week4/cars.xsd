@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- cars .xsd
+	A simple schema for cars.xml-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="catalog">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="heading" type="xs:string"></xs:element>
+				<xs:element name="cars">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="make" type="xs:string" />
+							<xs:element name="model" type="xs:string" />
+							<xs:element name="year" type="xs:string" />
+							<xs:element name="color" type="xs:string" />
+							<xs:element name="engine">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="number_of_cylinders" type="xs:string" />
+										<xs:element name="fuel_system" type="xs:string" />
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="number_of_doors" type="xs:string" />
+							<xs:element name="transmission_type" type="xs:string" />
+							<xs:element name="accessories">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="radio" type="xs:string" />
+										<xs:element name="air_conditioning" type="xs:string" />
+										<xs:element name="power_windows" type="xs:string" />
+										<xs:element name="power_steering" type="xs:string" />
+										<xs:element name="power_brakes" type="xs:string" />
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>

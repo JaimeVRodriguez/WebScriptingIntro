@@ -1,0 +1,40 @@
+catalog {
+	background-color: black;
+	display: block;
+}
+
+heading {
+	display: block;
+	color: white;
+	text-align: center;
+	margin-top: 30px;
+	font-weight: 900;
+	font-size: 40px;
+}
+
+cars {
+	display: block;
+	padding: 15px;
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: beige;
+	border-radius: 20px;
+}
+
+make, model, year, color, number_of_doors, transmission_type {
+	display: block;
+	font-size: 12pt;
+}
+
+number_of_cylinders, fuel_system {
+	display: block;
+	font-size: 12pt;
+}
+
+radio, air_conditioning, power_windows, power_steering, power_brakes {
+	display: block;
+	font-size: 12pt;
+}
