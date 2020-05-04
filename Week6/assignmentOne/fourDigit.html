@@ -1,0 +1,47 @@
+<!--
+Student: Jaime Rodriguez
+Bellevue University
+CIS337
+
+fourDigit.html
+
+Assignment 6.2
+Purpose: HTML page for take user input of a
+series of numbers. First 4 digit number
+will be displayed utilizing PHP file. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title> 4 Digit Finder </title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="fourDigit.css">
+</head>
+
+<body>
+	<h2> Find The First 4 Digit Number In Your List </h2>
+	<form action="fourDigit.php" method="post">
+		<p />
+		<table>
+			<!-- Column headings -->
+			<tr>
+				<th> Your Numbers </th>
+			</tr>
+			<!-- User entries -->
+			<tr>
+				<td> <input type="text" name="set_one" size="50" placeholder="Insert Your Numbers" /></td>
+			</tr>
+			<tr>
+				<td> <input type="text" name="set_two" size="50" placeholder="Insert Your Numbers" /> </td>
+			</tr>
+		</table>
+		<p />
+		<p>
+			<input class="button" type="submit" value="Submit Numbers" />
+			<input class="button" type="reset" value="Clear Numbers" />
+		</p>
+	</form>
+</body>
+
+</html>
